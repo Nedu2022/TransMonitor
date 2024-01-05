@@ -43,8 +43,8 @@ export default {
         white: '#FFFFFF',
         black: '#000000',
         green: '#2AAE60',
-        primary: '#13151D',
-        secondary: '#2A2C34',
+        blue:  '#1875F0',
+        secondary: '#979797',
         accent: '#424A521A',
       },
     }

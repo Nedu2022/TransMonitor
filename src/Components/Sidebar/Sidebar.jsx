@@ -2,8 +2,8 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white pl-10 py-20">
-      <div>
+    <div className="bg-white h-screen w-72 pl-10 py-20">
+      <div className="mt-10">
         {/* Generate Invoice Button */}
         <span className="bg-green rounded-full text-white p-3 px-10">
           Generate Invoice
