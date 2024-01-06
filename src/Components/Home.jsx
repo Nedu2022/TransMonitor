@@ -2,6 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Navbar from "./Navbar/Navbar";
 import Sidebar from "./Sidebar/Sidebar";
+import Widgets from "./Widgets";
+import GraphChart from "./GraphChart";
+import Orders from "./Orders";
+import Payments from "./Payments";
 
 const Home = ({ children }) => {
   return (
@@ -19,7 +23,21 @@ const Home = ({ children }) => {
           </div>
 
           {/* Main Content Area */}
-          <div className="p-8 flex-1">{children}</div>
+          <div className="p-8 bg-primary flex-1 flex flex-col items-center text-center">
+            <div>
+              <Widgets />
+
+              <div className="flex items-center space-x-8 mt-10">
+  <GraphChart />
+  <div className="flex flex-col items-center space-y-4">
+    <Orders />
+    <Payments />
+  </div>
+</div>
+
+            </div>
+            {children}
+          </div>
         </div>
       </div>
     </div>
@@ -27,7 +45,7 @@ const Home = ({ children }) => {
 };
 
 Home.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Home;

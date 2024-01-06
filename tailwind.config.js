@@ -40,10 +40,12 @@ export default {
         xl: '31px',
       },
       colors: {
+        primary: '#F7F8FA',
         white: '#FFFFFF',
         black: '#000000',
         green: '#2AAE60',
         blue:  '#1875F0',
+        yellow: '#EBC315',
         secondary: '#979797',
         accent: '#424A521A',
       },

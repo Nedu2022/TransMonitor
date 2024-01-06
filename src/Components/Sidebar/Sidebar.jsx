@@ -2,12 +2,14 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white h-screen w-72 pl-10 py-20">
+<div className="bg-white h-screen w-72 pl-10 py-20 overflow-hidden">
+
       <div className="mt-10">
         {/* Generate Invoice Button */}
-        <span className="bg-green rounded-full text-white p-3 px-10">
+        <span className="bg-green rounded-full text-white p-3 px-10 uppercase">
           Generate Invoice
         </span>
+
         <div className="mt-14">
           {/* Main Section */}
           <p>Main</p>
@@ -30,13 +32,21 @@ const Sidebar = () => {
 
             {/* Reconciled Payments */}
             <span className="flex items-center mt-4">
-              <img src="/images/Reconciled.svg" alt="Reconciled" className="mr-2" />
+              <img
+                src="/images/Reconciled.svg"
+                alt="Reconciled"
+                className="mr-2"
+              />
               Reconciled Payments
             </span>
 
             {/* Un-Reconciled Payments */}
             <span className="flex items-center mt-4">
-              <img src="/images/Unreconciled.svg" alt="Un-Reconciled" className="mr-2" />
+              <img
+                src="/images/Unreconciled.svg"
+                alt="Un-Reconciled"
+                className="mr-2"
+              />
               Un-Reconciled Payments
             </span>
 
