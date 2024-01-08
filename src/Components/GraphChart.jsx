@@ -2,7 +2,7 @@ import React from 'react'
 
 const GraphChart = () => {
   return (
-    <div className='bg-white w-fit '>
+    <div className='bg-white '>
       <div className='flex items-center justify-between px-8 py-4'>
         <h1 className='text-black text-bold text-md'>Today: 5, Aug 2018</h1>
         <div className='flex space-x-7'>
@@ -24,7 +24,7 @@ const GraphChart = () => {
         <h3>May</h3>
         <h3>Jun</h3>
       </div>
-      <img src="/images/big graph.png" alt="Big Graph" />
+      <img className='w-[50rem]' src="/images/big graph.png" alt="Big Graph" />
     </div>
   )
 }

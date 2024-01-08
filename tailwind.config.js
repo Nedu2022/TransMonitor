@@ -17,18 +17,18 @@ export default {
       md: "480px",
       // => @media (min-width: 481px and max-width: 768px) { ... }
 
-      lg: "768px",
+      lg: "1024px",
       // => @media (min-width: 769px and max-width: 1024px) { ... }
 
-      xl: "1024px",
+      xl: "1200px",
       // => @media (min-width: 1025px and max-width: 1200px) { ... }
 
-      "2xl": "1200px",
+      "2xl": "1280px",
       // => @media (min-width: 1536px) { ... }
 
-      "3xl": "1280px",
+      "3xl": "1440px",
 
-      "4xl":"1440px"
+      
     },
 
     extend: {
@@ -45,6 +45,7 @@ export default {
         black: '#000000',
         green: '#2AAE60',
         blue:  '#1875F0',
+        liblue: '#E8F1FD',
         yellow: '#EBC315',
         secondary: '#979797',
         accent: '#424A521A',
