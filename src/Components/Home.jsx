@@ -75,11 +75,11 @@ const Home = () => {
           <div className="bg-primary flex flex-col mt-10 space-y-8 sm:space-y-0 sm:space-x-8">
             <div className="flex flex-col justify-evenly">
               <Widgets />
-              <div className="flex justify-evenly mt-8">
-  <div className="lg:w-1/2 xl:w-[50rem]">
+              <div className="flex justify-evenly mt-8 xl:px-10 p-0">
+  <div className="w-fit">
                   <GraphChart />
                 </div>
-                <div className="flex flex-col items-center lg:space-y-4 xl:space-y-12">
+                <div className="flex flex-col items-center space-y-4">
                   <Orders />
                   <Payments />
                 </div>

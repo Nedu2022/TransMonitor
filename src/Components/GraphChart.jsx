@@ -24,7 +24,7 @@ const GraphChart = () => {
         <h3>May</h3>
         <h3>Jun</h3>
       </div>
-      <img className='w-[50rem]' src="/images/big graph.png" alt="Big Graph" />
+      <img className='' src="/images/big graph.png" alt="Big Graph" />
     </div>
   )
 }
