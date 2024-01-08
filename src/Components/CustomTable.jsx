@@ -7,13 +7,13 @@ const Table = ({ data }) => {
   const getTextColor = (name) => {
     switch (name) {
       case 'Reconcilled':
-        return '#27AE60'; // Set your desired color for 'Reconcilled'
+        return '#27AE60'; // Setting desired color for 'Reconcilled'
       case 'Pending':
-        return '#EBC315'; // Set your desired color for 'Pending'
+        return '#EBC315'; // Setting desired color for 'Pending'
       case 'Un-Reconcilled':
-        return '#7F8FA4'; // Set your desired color for 'Un-Reconcilled'
+        return '#7F8FA4'; // Setting desired color for 'Un-Reconcilled'
       default:
-        return 'black'; // Default color for other cases
+        return 'black'; 
     }
   };
 
