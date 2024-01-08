@@ -76,7 +76,7 @@ const Home = () => {
             <div className="flex flex-col justify-evenly">
               <Widgets />
               <div className="flex justify-evenly mt-8 xl:px-10 p-0">
-  <div className="w-fit">
+  <div className="xl:w-fit lg:w-[80rem]">
                   <GraphChart />
                 </div>
                 <div className="flex flex-col items-center space-y-4">
